@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+main {
+  background-color: lightblue;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 640px;
+  height: 640px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid-cell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+}
